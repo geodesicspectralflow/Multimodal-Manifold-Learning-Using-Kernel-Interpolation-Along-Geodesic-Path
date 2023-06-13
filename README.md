@@ -1,7 +1,5 @@
 This is a Matlab code that reproduces the experimental results described in the paper.
 
-To begin the user-interface script execute ``Main.m``.
-
 Execute ``ReprouceAll.m`` in order to reproduce all the results.
 In the beginning, the script will download and unzip the datasets.
 The generated figure will be saved automatically to a folder named "OutputFigures".
@@ -18,3 +16,5 @@ Execute the following scripts in order to reproduce only part of the results:
 - ``ENose_ReproduceTable.m``              - to reproduce a table summarizing the objective results on the  E-Nose dataset (Table 2).
 - ``NoisyMnist_ReproduceFigures.m``       - to reproduce the figures from the noisy mnist experiment (Figure 8).
 - ``NoisyMnist_ReproduceTable.m``         - to reproduce a table summarizing the objective results on the noisy mnist dataset (Table 3).
+
+To begin the user-interface script execute ``Main.m``.
